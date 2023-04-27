@@ -1,0 +1,75 @@
+.contactanos {
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+img {
+    width: 650px;
+    margin: 5px;
+}   
+}
+
+.contacto {
+    margin: 10px;
+}
+
+.contactanos-1 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 130px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.contacto-a {
+    padding: 10px;
+}
+
+.contacto-b {
+    padding: 10px;
+}
+
+.contacto-c {
+    padding: 10px;
+}
+
+.contacto-d {
+    padding: 10px;
+}
+
+.contacto-e {
+    padding: 10px;
+}
+
+.contactanos-2 {
+    margin: 20px;
+    padding: 15px;
+}
+@media (max-width:460px) {
+    .main-contacto {
+        text-align: start;
+        margin: 10px;
+    }
+    h2 {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: start;
+    }
+
+    img {
+        width: 95%;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 460px) {
+    .contactanos-1 {
+        border: solid 2px #0000ff;
+        width: 320px;
+        background-color: #faebd7;
+    }
+}

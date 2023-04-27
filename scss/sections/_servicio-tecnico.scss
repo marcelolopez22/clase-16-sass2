@@ -1,0 +1,41 @@
+.servicio-tecnico   {
+    max-width: 100%;
+img {
+    width: 700px;
+    margin: 10px;
+}
+p {
+    background-image: linear-gradient(#fddb92, #d1fdff);
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+ul {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}   
+}
+.slider-centrado {
+    width: 50%;
+    margin: auto;
+
+}
+@media (max-width: 460px)   {
+    .servicio-tecnico   {
+        margin: 3px;
+    }
+    .servicio-tecnico img   {
+        width: 100%;
+        margin: 0%;
+    }
+    .servicio-tecnico p     {
+        width: 97%;
+        font-size: 12px;
+    }
+    .servicio-tecnico li    {
+        width: 97%;
+        font-size: 12px;
+        
+    }
+}
