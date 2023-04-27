@@ -3,6 +3,8 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+@import "./utilities/colors";
+@import "./utilities/typo";
 @import "./sections/index";
 @import "./sections/nuestra-empresa";
 @import "./sections/servicio-tecnico";
