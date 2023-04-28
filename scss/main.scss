@@ -5,6 +5,7 @@
 }
 @import "./utilities/colors";
 @import "./utilities/typo";
+@import "./sections/nav-bar";
 @import "./sections/index";
 @import "./sections/nuestra-empresa";
 @import "./sections/servicio-tecnico";
@@ -29,10 +30,13 @@ a  {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-p {
+}
+
+.footer-flex p {
     margin: 15px;
     font-size: 16px;
 }
+
 .listas-flex {
     display: flex;
     flex-wrap: wrap;
@@ -41,11 +45,12 @@ p {
     list-style: none;
     font-size: 20px;
 }
-img {
+
+.footer-flex img {
     width: 120px;
     margin: 15px;
-}    
 }
+
 
 
 
