@@ -3,6 +3,7 @@
 @import "./utilities/typo";
 @import "./utilities/reset";
 @import "./sections/nav-bar";
+@import "./sections/footer";
 @import "./sections/index";
 @import "./sections/nuestra-empresa";
 @import "./sections/servicio-tecnico";
@@ -20,33 +21,7 @@ a  {
     font-size: 20px;
 }   
 }
-.footer-flex {
-    background-image: linear-gradient(#fddb92, #d1fdff);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.footer-flex p {
-    margin: 15px;
-    font-size: 16px;
-}
-
-.listas-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 800px;
-    list-style: none;
-    font-size: 20px;
-}
-
-.footer-flex img {
-    width: 120px;
-    margin: 15px;
-}
 
 
 

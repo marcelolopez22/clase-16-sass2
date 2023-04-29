@@ -1,0 +1,36 @@
+.footer-flex {
+    background-image: linear-gradient(#fddb92, #d1fdff);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+p {
+    margin: 15px;
+    font-size: 16px;
+}
+img {
+    width: 120px;
+    margin: 15px;
+}   
+}
+.listas-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 800px;
+    list-style: none;
+    font-size: 20px;
+        }
+@media (max-width: 460px) {
+        .footer-flex {
+            width: 100%;
+        }
+        .footer-flex img    {
+            width: 70px;
+        }
+    
+        .footer-flex ul {
+            width: 80px;
+        }
+    }
