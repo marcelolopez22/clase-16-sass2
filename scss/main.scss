@@ -1,10 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 @import "./utilities/colors";
 @import "./utilities/typo";
+@import "./utilities/reset";
 @import "./sections/nav-bar";
 @import "./sections/index";
 @import "./sections/nuestra-empresa";
