@@ -1,5 +1,8 @@
 .servicio-tecnico   {
     max-width: 100%;
+    h1 {
+        margin: 10px;
+    }
 img {
     width: 700px;
     margin: 10px;
@@ -26,11 +29,11 @@ ul {
 }
 @media (max-width: 460px)   {
     .servicio-tecnico   {
-        margin: 3px;
+        margin: 10px;
     }
     .servicio-tecnico img   {
         width: 100%;
-        margin: 0%;
+        margin: 3px;
     }
     .servicio-tecnico p     {
         width: 97%;
