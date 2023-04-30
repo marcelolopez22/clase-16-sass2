@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@500;700&display=swap");
 .navbar .navbar-collapse {
@@ -165,6 +166,8 @@
     font-size: 20px;
     margin: 10px;
     text-align: center; }
+    .servicio-tecnico p::before {
+      content: "»"; }
   .servicio-tecnico ul {
     font-size: 20px;
     margin: 10px;
