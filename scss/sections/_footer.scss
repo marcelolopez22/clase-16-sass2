@@ -8,7 +8,19 @@
 p {
     margin: 15px;
     font-size: 16px;
+    a {
+        &:link {
+            color: rgb(151, 41, 41);
+        }
+        &:active {
+            color: blue;
+        }
+        &:visited {
+            color:  black;
+        }
+    }
 }
+
 img {
     width: 120px;
     margin: 15px;

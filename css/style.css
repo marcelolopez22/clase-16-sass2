@@ -13,6 +13,12 @@
   .footer-flex p {
     margin: 15px;
     font-size: 16px; }
+    .footer-flex p a:link {
+      color: #972929; }
+    .footer-flex p a:active {
+      color: blue; }
+    .footer-flex p a:visited {
+      color: black; }
   .footer-flex img {
     width: 120px;
     margin: 15px; }
