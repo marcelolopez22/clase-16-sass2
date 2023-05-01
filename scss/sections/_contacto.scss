@@ -22,10 +22,12 @@ img {
 .contactanos-1 {
     display: grid;
     grid-template-columns: auto;
-    width: 130px;
     margin: 20px;
     padding: 20px;
     font-size: 20px;
+    border: solid 2px #0000ff;
+    width: 320px;
+    background-color: #faebd7;
 }
 
 .contacto-a {
@@ -66,7 +68,7 @@ img {
     }
 
     img {
-        width: 95%;
+        width: 90%;
         margin: 5px;
     }
 }
