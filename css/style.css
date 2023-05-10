@@ -165,24 +165,28 @@
 .servicio-tecnico {
   max-width: 100%; }
   .servicio-tecnico h1 {
-    margin: 10px; }
+    margin: 10px;
+    text-align: center; }
   .servicio-tecnico img {
     width: 700px;
     margin: 10px; }
   .servicio-tecnico p {
     background-image: linear-gradient(#fddb92, #d1fdff);
     font-size: 20px;
-    margin: 10px;
-    text-align: center; }
+    margin: 20px;
+    text-align: center;
+    max-width: 90%; }
     .servicio-tecnico p::before {
       content: "»"; }
-  .servicio-tecnico ul {
+  .servicio-tecnico ol {
     font-size: 20px;
-    margin: 10px;
+    margin: 30px;
     padding: 10px; }
+  .servicio-tecnico li {
+    max-width: 70%; }
 
 .slider-centrado {
-  width: 50%;
+  max-width: 50%;
   margin: auto; }
 
 @media (max-width: 460px) {

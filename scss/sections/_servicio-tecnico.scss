@@ -1,46 +1,61 @@
-.servicio-tecnico   {
+.servicio-tecnico {
     max-width: 100%;
+
     h1 {
         margin: 10px;
+        text-align: center;
     }
-img {
-    width: 700px;
-    margin: 10px;
-}
-p {
-    background-image: linear-gradient(#fddb92, #d1fdff);
-    font-size: 20px;
-    margin: 10px;
-    text-align: center;
-    &::before{
-        content: "»"
-    }
-}
-ul {
-    font-size: 20px;
-    margin: 10px;
-    padding: 10px;
-}   
-}
-.slider-centrado {
-    width: 50%;
-    margin: auto;
-}
-@media (max-width: 460px)   {
-    .servicio-tecnico   {
+
+    img {
+        width: 700px;
         margin: 10px;
     }
-    .servicio-tecnico img   {
+
+    p {
+        background-image: linear-gradient(#fddb92, #d1fdff);
+        font-size: 20px;
+        margin: 20px;
+        text-align: center;
+        max-width: 90%;
+
+        &::before {
+            content: "»"
+        }
+    }
+
+    ol {
+        font-size: 20px;
+        margin: 30px;
+        padding: 10px;
+    }
+    li {
+        max-width: 70%;
+    }
+}
+
+.slider-centrado {
+    max-width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 460px) {
+    .servicio-tecnico {
+        margin: 10px;
+    }
+
+    .servicio-tecnico img {
         width: 100%;
         margin: 3px;
     }
-    .servicio-tecnico p     {
+
+    .servicio-tecnico p {
         width: 97%;
         font-size: 12px;
     }
-    .servicio-tecnico li    {
+
+    .servicio-tecnico li {
         width: 97%;
         font-size: 12px;
-        
+
     }
 }
