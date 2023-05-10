@@ -1,71 +1,98 @@
 .main-index {
     max-width: 100%;
     text-align: center;
-h1{
-    font-size: 18px;
-    color: darkslategray;
+
+    h1 {
+        font-size: 18px;
+        color: blueviolet;
+    }
+
+    img {
+        width: 1320px;
+        margin: 10px;
+    }
+
+    .animate__animated {
+        margin: 10px;
+        font-size: 23px;
+        text-align: center;
+        color: blueviolet;
+    }
+
+    .cuadro {
+        font-size: 20px;
+        text-align: center;
+    }
 }
-.animate__animated  {
-    margin: 10px;
-    font-size: 23px;
-    text-align: center;
-} 
-img {
-    width: 1320px;
-    margin: 10px;   
-} 
-  .container  {
+
+.cuadro-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    margin: 5px;
+
+
+    img {
+        width: 230px;
+    }
+
+    h2 {
+        color: blueviolet;
+    }
+
+    h3 {
+        color: cornflowerblue
+    }
+
+    p {
+        color: firebrick;
+    }
+}
+
+.container {
+    margin-top: 10px;
     border: solid 1px #a6c0fe;
     background-color: darkslategray;
-    color: white; 
+    color: white;
 }
-}
-.terminales-pos {
-    text-align: center;
-    font-size: 20px;
-    margin: 15px;
-        }
-    .cuadro-flex    {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        color: #ffffff;
-        margin: 5px;
-    img     {
-        width: 230px;
-    }   
-}
+
 .volver {
     text-align: center;
     font-size: 20px;
     margin: 20px;
-a {
-    text-decoration: none;
-}   
+
+    a {
+        text-decoration: none;
+
+    }
 }
+
 @media (max-width: 460px) {
     .main-index {
         margin: 10px;
-        max-width: 440px;   
+        max-width: 440px;
     }
+
     h1 {
         max-width: 440px;
     }
+
     img {
         margin: 3px;
-        max-width: 95%;    }
+        max-width: 95%;
+    }
+
     ul {
         align-items: center;
         display: flex;
         flex-direction: column;
         max-width: 50%;
     }
-}
 
-@media (max-width: 460px)   {
-    .cuadro-flex    {
+    .cuadro-flex {
         max-width: 300px;
     }
 }
